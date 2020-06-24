@@ -23,6 +23,8 @@
             integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
             crossorigin="anonymous"
         />
+        <!-- aos -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <title>Portofolio</title>
     </head>
@@ -113,10 +115,10 @@
         <section class="container">
             <h1>My Hobby</h1>
             <div class="hobby">
-                <div class="image">
+                <div data-aos="fade-right" class="image">
                     <img src="/img/undraw_book_lover_mkck.svg" />
                 </div>
-                <p>
+                <p data-aos="fade-left">
                     Reading is an incredibly inexpensive hobby that provides so
                     many benefits. ... Depending on the size of the book, a book
                     will take me between two and twenty hours to read. A larger
@@ -125,22 +127,22 @@
                 </p>
             </div>
             <div id="hobby2" class="hobby">
-                <p>
+                <p data-aos="fade-right">
                     My favorite game is football. ... I like this game because
                     it is exciting and challenging. Football is a team sport
                     played between two teams of eleven players each. It is a
                     ball game played on a rectangular grass field with a goal at
                     each end.
                 </p>
-                <div class="image">
+                <div data-aos="fade-left" class="image">
                     <img src="/img/undraw_junior_soccer_6sop.svg" />
                 </div>
             </div>
             <div id="hobby3" class="hobby">
-                <div class="image">
+                <div data-aos="fade-right" class="image">
                     <img src="/img/undraw_Ride_a_bicycle_2yok.svg" />
                 </div>
-                <p>
+                <p data-aos="fade-left">
                     I love riding bike because Riding bike is a great way to get
                     some fresh air. I feel that I wasn't spending enough time
                     outdoors before I started going on bike rides regularly
@@ -149,6 +151,12 @@
         </section>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1200,
+            });
+        </script>
         <script
             src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
