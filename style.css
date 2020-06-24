@@ -113,3 +113,53 @@
     color: cyan;
     opacity: 1;
 }
+
+/* responsive */
+
+/* Smartphone */
+@media only screen and (max-width: 830px) {
+    img {
+        display: none;
+    }
+    #logo {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .front1 {
+        width: 100%;
+    }
+    .svg {
+        width: 1%;
+    }
+    #jumbotron {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+    }
+    .sosmed {
+        display: flex;
+        justify-content: center;
+    }
+    .button-link {
+        display: flex;
+        justify-content: center;
+    }
+    #link-contact,
+    #link-download {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
