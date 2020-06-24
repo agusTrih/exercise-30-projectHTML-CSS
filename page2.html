@@ -23,6 +23,8 @@
             integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
             crossorigin="anonymous"
         />
+        <!-- aos -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <title>Portofolio</title>
     </head>
@@ -113,7 +115,7 @@
         <div id="jumbotron">
             <div id="container" class="container">
                 <section class="two-slide">
-                    <div class="front-1">
+                    <div data-aos="fade-right" class="front-1">
                         <h1>
                             Hi all, I'm Gstrhntn
                             <span>&#128075;&#127995;</span>
@@ -139,7 +141,7 @@
                             nemo expedita suscipit.
                         </p>
                     </div>
-                    <div class="skill">
+                    <div data-aos="fade-left" class="skill">
                         <h2 class="head-skill">My Skills</h2>
                         <p>HTML & CSS</p>
                         <div class="progress">
@@ -189,9 +191,12 @@
             </div>
             <div class="my-skill-interest container">
                 <div class="interest">
-                    <h2 class="head-interest">My Interested</h2>
+                    <h2 data-aos="fade-down" class="head-interest">
+                        My Interested
+                    </h2>
                     <div class="interested">
                         <div
+                            data-aos="fade-down"
                             class="card text-white bg-info mb-3"
                             style="max-width: 18rem;"
                         >
@@ -209,6 +214,7 @@
                             </div>
                         </div>
                         <div
+                            data-aos="fade-down"
                             class="card text-white bg-info mb-3"
                             style="max-width: 18rem;"
                         >
@@ -229,6 +235,7 @@
                             </div>
                         </div>
                         <div
+                            data-aos="fade-down"
                             class="card text-white bg-info mb-3"
                             style="max-width: 18rem;"
                         >
@@ -252,6 +259,12 @@
         </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1200,
+            });
+        </script>
         <script
             src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
