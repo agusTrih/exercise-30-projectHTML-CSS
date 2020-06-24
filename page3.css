@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&family=Montserrat:wght@500&family=Patrick+Hand+SC&family=Roboto:wght@500&family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+#logo {
+    font-family: "Cedarville Cursive", cursive;
+    margin-right: 10px;
+    color: rgb(42, 11, 153);
+    font-size: 36px;
+}
+#navbar {
+    margin: 20px 40px 0 40px;
+}
+#sign {
+    margin-right: 10px;
+}
+
+/* Container */
+.container {
+    padding: 100px 0 20px 0;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* box-shadow */
+.mb-4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.mb-4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

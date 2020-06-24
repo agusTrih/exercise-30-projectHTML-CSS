@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&family=Montserrat:wght@500&family=Patrick+Hand+SC&family=Roboto:wght@500&family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+#logo {
+    font-family: "Cedarville Cursive", cursive;
+    margin-right: 10px;
+    color: rgb(42, 11, 153);
+    font-size: 36px;
+}
+#navbar {
+    margin: 20px 40px 0 40px;
+}
+#sign {
+    margin-right: 10px;
+}
+
+/* Two slide */
+.two-slide {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+/* My Skill and front-1*/
+.front-1 {
+    width: 35%;
+    border-right: 1px solid gray;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.skill {
+    width: 60%;
+    margin-left: 10px;
+}
+.head-skill {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+}
+/* My interest */
+.interest {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+}
+.head-interest {
+    text-align: center;
+}
+.interested {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

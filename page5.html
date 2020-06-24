@@ -15,7 +15,7 @@
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="page5.css" />
         <!-- fontawesome -->
         <link
             href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -97,57 +97,49 @@
                 </form>
             </div>
         </nav>
-        <!-- Jumbotron -->
-        <div id="jumbotron">
-            <div id="container" class="container">
-                <div class="front-1">
-                    <h1>
-                        Hi all, I'm Gstrhntn
-                        <span>&#128075;&#127995;</span>
-                    </h1>
-                    <p class="desc">
-                        I am a web developer, problem-solver, word nerd and
-                        budding coffee connoisseur. I am simple and
-                        hard-working. trying my hardest in every situation and
-                        look out for various ways to solve a problem.
-                    </p>
-                    <div class="sosmed">
-                        <span
-                            ><i id="dm" class="fa fa-instagram fa-2x"></i
-                        ></span>
-                        <span
-                            ><i id="repo" class="fa fa-github fa-2x"></i
-                        ></span>
-                        <span
-                            ><i id="tweet" class="fa fa-twitter fa-2x"></i
-                        ></span>
-                    </div>
-                    <div class="button-link">
-                        <a
-                            id="link-contact"
-                            href="/img/Contact (ceritanya).png"
-                            class="btn btn-lg active"
-                            role="button"
-                            aria-pressed="true"
-                            download
-                            >Contact Me</a
-                        >
-                        <a
-                            id="link-download"
-                            href="/img/CV(ceritanya).png"
-                            class="btn btn-lg active"
-                            role="button"
-                            aria-pressed="true"
-                            download
-                            >Download CV</a
-                        >
-                    </div>
-                </div>
+        <!-- Container -->
+        <h1>Contact Me</h1>
+        <p>I would love to hear your response about me. &#128516</p>
+        <div class="container">
+            <div class="image">
+                <img src="/img/undraw_social_thinking_7ule.svg" />
             </div>
-            <div class="undraw">
-                <img class="svg" src="/img/undraw_dev_productivity_umsq.svg" />
-            </div>
+            <form id="contact">
+                <label for="fname">First Name</label>
+                <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Your name.."
+                />
+
+                <label for="lname">Last Name</label>
+                <input
+                    type="text"
+                    id="lname"
+                    name="lastname"
+                    placeholder="Your last name.."
+                />
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Indonesia</option>
+                    <option value="canada">Malaysia</option>
+                    <option value="usa">Other</option>
+                </select>
+
+                <label for="subject">Message</label>
+                <textarea
+                    id="subject"
+                    name="subject"
+                    placeholder="Write something.."
+                    style="height: 200px;"
+                ></textarea>
+
+                <input type="submit" value="Send" />
+            </form>
         </div>
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script
