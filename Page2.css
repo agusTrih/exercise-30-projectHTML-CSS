@@ -58,3 +58,33 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+/* responsive */
+/* smartphone tablet */
+@media only screen and (max-width: 830px) {
+    .two-slide {
+        display: flex;
+        flex-direction: column;
+    }
+    .front-1 {
+        width: 100%;
+        border: none;
+    }
+    .skill {
+        width: 100%;
+        margin-left: 0;
+    }
+    img {
+        display: none;
+    }
+    .interested {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    #logo {
+        font-size: 14px;
+    }
+}
