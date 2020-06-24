@@ -72,3 +72,19 @@ h1 {
 p {
     text-align: center;
 }
+#white {
+    color: white;
+}
+
+/* responsive smartphone and tab and desktop */
+@media only screen and (max-width: 900px) {
+    #logo {
+        font-size: 14px;
+    }
+    img {
+        display: none;
+    }
+    #contact {
+        width: 100%;
+    }
+}
