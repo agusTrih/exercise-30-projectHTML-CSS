@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&family=Montserrat:wght@500&family=Patrick+Hand+SC&family=Roboto:wght@500&family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+#logo {
+    font-family: "Cedarville Cursive", cursive;
+    margin-right: 10px;
+    color: rgb(42, 11, 153);
+    font-size: 36px;
+}
+#navbar {
+    margin: 20px 40px 0 40px;
+}
+
+/* all JUMBOTRON */
+#jumbotron {
+    padding: 100px 0 0 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.undraw {
+    width: 50%;
+}
+.svg {
+    width: 450px;
+}
+
+/* khusus text, button, and font-awesome */
+.desc {
+    margin-top: 20px;
+    opacity: 0.7;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+/* Sosmed */
+.sosmed {
+    margin: 30px 0;
+    display: flex;
+}
+.fa {
+    margin-right: 20px;
+    color: white;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#tweet {
+    background-color: #00acee;
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+#dm {
+    background-color: #df1788d0;
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+#repo {
+    background-color: black;
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+/* sosmed hover */
+#tweet:hover,
+#dm:hover,
+#repo:hover {
+    opacity: 1;
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+/* button-link */
+
+#link-contact {
+    margin-right: 40px;
+    background-color: blueviolet;
+    color: white;
+    opacity: 0.9;
+}
+#link-download {
+    background-color: blueviolet;
+    color: white;
+    opacity: 0.9;
+}
+#link-contact:hover,
+#link-download:hover {
+    background-color: rgb(123, 25, 214);
+    color: cyan;
+    opacity: 1;
+}
